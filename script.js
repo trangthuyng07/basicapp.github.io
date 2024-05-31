@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const accessToken = 'IGQWRNNldPQ2swaWVtNGUyTlRYeGpXQnZALYUpoOW5MSHAybENROFNrTU40aDR5RkNzWGYwelBJSDNNbnJiOXpYd0EtUHlnR1BVODJ2MDJoSEZAZAczlSSGtLR0oxakZAwUFNLMVdNU3ltc2E4aG1fcW42X1JoQ0phWUUZD'; // Replace with your actual access token
-    const userId = '7360952250696755'; // Replace with your actual user ID
+    const accessToken = 'IGQWRNLWp5TlFPNUpOZAnBhM0tUZAGFDc2xXVXNFWGx2Qkg3SE9lSGJkZAlNkTHRuWW5HbHF6RDlDcXJUV2ZAPT2stZAXFPeG8xUWRHR0p5RmVGbWlKQ1FrZAkJJNEJjR1ljdmNsZAVUxaHNrLWd0bUkwMWxDaUlhWmRtdUEZD'; // Replace with your actual access token
+    const userId = '2833150970182014'; // Replace with your actual user ID
 
     fetch(`https://graph.instagram.com/${userId}/media?fields=id,caption,media_type,media_url&access_token=${accessToken}`)
         .then(response => response.json())
